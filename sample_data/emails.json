@@ -1,0 +1,90 @@
+[
+  {
+    "message_id": "msg-7001",
+    "to": "talkback@acc.eco",
+    "from_role": "branch_leader",
+    "received_at": "2026-06-13T09:12:00Z",
+    "subject": "Still waiting on reimbursement",
+    "body": "I submitted my reimbursement for the April event supplies three weeks ago and have not heard anything back. Can someone let me know the status? I'm out of pocket and it's adding up."
+  },
+  {
+    "message_id": "msg-7002",
+    "to": "questions@acc.eco",
+    "from_role": "brand_ambassador",
+    "received_at": "2026-06-14T11:40:00Z",
+    "subject": "Reimbursement from the April event",
+    "body": "Hi - I'm still owed about $240 in expenses from the April outreach event. It's been roughly six weeks now. Who handles reimbursements? Thanks."
+  },
+  {
+    "message_id": "msg-7003",
+    "to": "volunteer@acc.eco",
+    "from_role": "brand_ambassador",
+    "received_at": "2026-06-15T08:05:00Z",
+    "subject": "expenses for materials",
+    "body": "The reimbursement for the materials I bought for the booth never came through. I sent the receipts in May. Just flagging in case it got lost."
+  },
+  {
+    "message_id": "msg-7004",
+    "to": "talkback@acc.eco",
+    "from_role": "brand_ambassador",
+    "received_at": "2026-06-18T07:50:00Z",
+    "subject": "I'm reaching my limit",
+    "body": "This is the third time my reimbursement has been late and honestly I'm seriously considering stepping back as an ambassador. I love the mission but I keep fronting money and chasing people for it. I feel like I might walk away if this keeps happening."
+  },
+  {
+    "message_id": "msg-7005",
+    "to": "talkback@acc.eco",
+    "from_role": "branch_leader",
+    "received_at": "2026-06-15T13:20:00Z",
+    "subject": "regional event",
+    "body": "I just wanted to share that I felt completely alone at the regional event last weekend. There was no national support on site and no one I could call when attendance was way higher than expected."
+  },
+  {
+    "message_id": "msg-7006",
+    "to": "questions@acc.eco",
+    "from_role": "branch_leader",
+    "received_at": "2026-06-16T10:10:00Z",
+    "subject": "conflicting instructions",
+    "body": "I keep getting conflicting instructions from different national contacts about the summer campaign. One person says one thing, another says the opposite. Could we get a single source of truth?"
+  },
+  {
+    "message_id": "msg-7007",
+    "to": "talkback@acc.eco",
+    "from_role": "branch_leader",
+    "received_at": "2026-06-17T15:45:00Z",
+    "subject": "newsletter vs my coordinator",
+    "body": "The national newsletter said one thing about the event timeline and my regional coordinator told me something completely different. The communication from national is unclear and I'm not sure which to follow."
+  },
+  {
+    "message_id": "msg-7008",
+    "to": "volunteer@acc.eco",
+    "from_role": "brand_ambassador",
+    "received_at": "2026-06-16T18:30:00Z",
+    "subject": "new ambassador - confused",
+    "body": "As a new ambassador I honestly had no idea how to get started. The onboarding was confusing and the getting-started steps didn't match the current portal. It took me a few weeks to feel oriented."
+  },
+  {
+    "message_id": "msg-7009",
+    "to": "talkback@acc.eco",
+    "from_role": "branch_leader",
+    "received_at": "2026-06-18T12:00:00Z",
+    "subject": "running on fumes",
+    "body": "I'm running three events this month basically solo and I'm starting to burn out. I'm stretched thin and could really use another volunteer or some backup from national."
+  },
+  {
+    "message_id": "msg-7010",
+    "to": "questions@acc.eco",
+    "from_role": "brand_ambassador",
+    "received_at": "2026-06-17T09:00:00Z",
+    "subject": "logo files",
+    "body": "Quick question - where can I find the official ACC logo files and brand colors for a flyer I'm making? Thanks so much!"
+  },
+  {
+    "message_id": "msg-7011-PRIVATE",
+    "to": "sarah.chen@personal-email.com",
+    "from_role": "branch_leader",
+    "received_at": "2026-06-18T22:00:00Z",
+    "subject": "venting to a friend",
+    "body": "This message is to a PRIVATE personal inbox and must NEVER be ingested or analyzed. The EmailAdapter allowlist should refuse it outright (consent-by-design)."
+  }
+]

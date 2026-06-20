@@ -1,0 +1,72 @@
+[
+  {
+    "id": "fathom-2026-06-14-001",
+    "meeting_type": "post_event_debrief",
+    "targeted": true,
+    "title": "Post-event debrief — Portland Earth Day booth",
+    "recorded_at": "2026-06-14T17:30:00Z",
+    "speaker_role": "branch_leader",
+    "share_url": "https://fathom.video/share/abc123",
+    "transcript_excerpt": "Honestly the event went fine but I submitted my reimbursement for the booth supplies and nobody answered my reimbursement question for three weeks. I followed up twice. It's frustrating because I'm out of pocket about two hundred dollars."
+  },
+  {
+    "id": "fathom-2026-06-15-002",
+    "meeting_type": "post_event_debrief",
+    "targeted": true,
+    "title": "Post-event debrief — Austin campus tabling",
+    "recorded_at": "2026-06-15T16:00:00Z",
+    "speaker_role": "brand_ambassador",
+    "share_url": "https://fathom.video/share/def456",
+    "transcript_excerpt": "We never got the promised materials for the booth. I showed up and had basically nothing — no banner, no flyers. I felt unsupported the whole day and didn't have anyone from national I could reach."
+  },
+  {
+    "id": "fathom-2026-06-16-003",
+    "meeting_type": "branch_leader_call",
+    "targeted": true,
+    "title": "Monthly branch leader sync — Midwest region",
+    "recorded_at": "2026-06-16T18:00:00Z",
+    "speaker_role": "branch_leader",
+    "share_url": "https://fathom.video/share/ghi789",
+    "transcript_excerpt": "Communication from national has been really sporadic lately. I get an email, then radio silence for weeks, and I genuinely don't know who to ask when something comes up. It makes planning hard."
+  },
+  {
+    "id": "fathom-2026-06-16-004",
+    "meeting_type": "ambassador_call",
+    "targeted": true,
+    "title": "New ambassador 1:1 — Southeast",
+    "recorded_at": "2026-06-16T19:30:00Z",
+    "speaker_role": "brand_ambassador",
+    "share_url": "https://fathom.video/share/jkl012",
+    "transcript_excerpt": "When I started, the onboarding packet was clearly out of date and I was lost for weeks. I didn't know how to get started or who my point of contact was. I eventually figured it out by asking another ambassador."
+  },
+  {
+    "id": "fathom-2026-06-17-005",
+    "meeting_type": "post_event_debrief",
+    "targeted": true,
+    "title": "Post-event debrief — Denver river cleanup",
+    "recorded_at": "2026-06-17T17:00:00Z",
+    "speaker_role": "branch_leader",
+    "share_url": "https://fathom.video/share/mno345",
+    "transcript_excerpt": "The cleanup was understaffed and I had no point of contact on the national side if something went wrong. It worked out, but I was basically on my own running the whole thing."
+  },
+  {
+    "id": "fathom-2026-06-17-006",
+    "meeting_type": "post_event_debrief",
+    "targeted": true,
+    "title": "Post-event debrief — Seattle farmers market",
+    "recorded_at": "2026-06-17T20:00:00Z",
+    "speaker_role": "branch_leader",
+    "share_url": "https://fathom.video/share/pqr678",
+    "transcript_excerpt": "Great event honestly. Everything went smoothly, the materials arrived on time, and the regional coordinator checked in beforehand. Nothing to flag — just wanted to say it was a good one."
+  },
+  {
+    "id": "fathom-2026-06-12-099",
+    "meeting_type": "all_hands",
+    "targeted": false,
+    "title": "Quarterly all-hands (not ingested — non-targeted)",
+    "recorded_at": "2026-06-12T15:00:00Z",
+    "speaker_role": "unknown",
+    "share_url": "https://fathom.video/share/zzz999",
+    "transcript_excerpt": "General org all-hands with finance and roadmap updates. This is intentionally a non-targeted meeting and should be filtered out by the TranscriptAdapter, never analyzed."
+  }
+]

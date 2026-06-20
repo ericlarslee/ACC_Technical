@@ -1,0 +1,23 @@
+# ACC Voices — scheduled batch pipeline (NOT an always-on service).
+#
+# Two cadences, two entry points. There are no webhooks, queues, or listeners:
+# polling a few role inboxes + occasional transcripts is low-volume, and the
+# urgent SLA is same-day, so polling is sufficient and far cheaper to operate.
+# Urgent latency == the frequent-job interval below.
+#
+# Install with:  crontab cron/crontab.example
+# (adjust paths / interpreter to your deployment)
+
+# --- Frequent job: ingest - extract - grade - route ------------------------
+# Early-morning + midday runs => an issue raised overnight escalates by morning,
+# one raised in the morning escalates by midday. Comfortably same-day.
+0 6  * * *  cd /opt/acc-voices && /usr/bin/python3 -m pipeline.entrypoints ingest_extract_triage >> /var/log/acc-voices/ingest.log 2>&1
+0 12 * * *  cd /opt/acc-voices && /usr/bin/python3 -m pipeline.entrypoints ingest_extract_triage >> /var/log/acc-voices/ingest.log 2>&1
+
+# --- Weekly job: aggregate - cluster - digest ------------------------------
+# Monday 07:00: cluster the week's accumulated candidates and send the digest.
+0 7  * * 1  cd /opt/acc-voices && /usr/bin/python3 -m pipeline.entrypoints aggregate_and_digest >> /var/log/acc-voices/digest.log 2>&1
+
+# To tighten the urgent SLA, raise the frequency of the first job (e.g. every
+# 3 hours). Only if the SLA ever drops to minutes would event-driven ingestion
+# be worth considering — explicitly a deferred future option, not part of v1.

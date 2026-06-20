@@ -1,0 +1,19 @@
+# Dependencies + local setup for ACC Voices (Scenario C).
+#
+# The offline mock needs NOTHING installed — it runs on the standard library:
+#     python3 run_demo.py
+#
+# To run it against REAL Claude, install this and export the two env vars:
+#
+#     python3 -m venv .venv
+#     source .venv/bin/activate
+#     pip install -r requirements.txt
+#     export ANTHROPIC_API_KEY=sk-ant-...your-key...
+#     export ACC_USE_REAL_CLAUDE=1
+#     python3 run_demo.py
+#
+# Models default to claude-sonnet-4-6 for both stages; override if needed:
+#     export ACC_EXTRACT_MODEL=claude-sonnet-4-6
+#     export ACC_CLUSTER_MODEL=claude-sonnet-4-6
+
+anthropic>=0.111
