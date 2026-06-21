@@ -13,7 +13,7 @@ runs over canned data.
 ## Run it
 
 ```bash
-cd ScenarioC
+cd ACC_Technical
 python3 run_demo.py
 ```
 
